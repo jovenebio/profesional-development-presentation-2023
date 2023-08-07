@@ -1,0 +1,47 @@
+////////////////////////
+//Layout Design Here
+////////////////////////
+
+//General Layout
+body {
+    margin: 0;
+    background: $white;
+}
+
+div#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: block;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    order: 2;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 800px;
+    @include devices(mobile_devices) {
+        padding: 0 5%;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    order: 3;
+    width: 100%;
+    margin-top: 40px;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}

@@ -1,0 +1,21 @@
+////////////////////////
+//Typhography Styles
+$line-height: 180%;
+///////////////////////
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: $blue-dark;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: $blue-dark;    
+}
+
+ol, ul {
+    line-height: $line-height;
+}

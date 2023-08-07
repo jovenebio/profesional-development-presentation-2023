@@ -1,0 +1,77 @@
+///////////////////////////////
+//General Components Styles
+//////////////////////////////
+
+//Section Block
+div.section_block {
+    padding: 40px 0 0;
+}
+
+//Block Subheadline
+div.sub_headline {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    img {
+        height: auto;
+        width: 70px;
+        position: relative;
+    }
+    h3 {
+        padding: 0 0 0 20px;
+    }
+}
+
+div.content_title {
+    span.contentText {
+        font-weight: 600;
+    }
+}
+
+div.content_wrapper {
+    padding: 20px;
+    background: $background-color;
+    border: $border;
+    border-radius: $border-radius;
+}
+
+div#non_aws_deployment {
+    span {
+        font-weight: 600;
+    }
+}
+
+div#before_getting_started {
+    span.contentText {
+        padding: 0;
+    }
+}
+
+div#tools_used {
+    img {
+        height: auto;
+        width: 70px;
+        padding: 0 10px 0 0;
+    }
+    div.content_wrapper {
+        div {
+            display: flex;
+            align-items: center;
+            position: relative;
+            padding: 10px 0;
+        }
+        span.tool_topic {
+            font-weight: 600;
+        }
+    }
+
+}
+
+div#aws_guide {
+    div.content_summary {
+        padding-bottom: 20px;
+    }
+    span.contentText {
+        padding: 0;
+    }
+}

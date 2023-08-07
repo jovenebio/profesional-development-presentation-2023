@@ -1,0 +1,30 @@
+//////////////////////////
+//Header Styles
+/////////////////////////
+
+header {
+    border-bottom: 2px solid $black;
+    div.header_content {
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+        align-items: flex-end;
+        background: $header-background-color;
+        @include devices(mobile_devices) {
+            align-items: center;
+        }
+    }
+
+
+    img {
+        height: auto;
+        width: 100px;
+    }
+
+    h1 {
+        @include devices(mobile_devices) {
+            padding: 0 0 0 10px;
+        }
+    }
+
+}
